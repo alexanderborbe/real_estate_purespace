@@ -17,7 +17,7 @@ const Projects = () => {
 
       {/* Scrollable projects with snap */}
       <div className="overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4">
-        <div className="flex">
+        <div className="flex gap-4">
           {projectsData.map((project, index) => (
             <div
               key={index}
