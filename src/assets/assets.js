@@ -19,33 +19,72 @@ import logo_dark from './logo_dark.svg'
 
 export const assets = {
     header_logo, menu_icon, cross_icon, img_about,
-     img_1, img_2, img_3, img_4, img_5, img_6, star_icon, logo_dark
+     star_icon, logo_dark
 }
 
+
+export const projectsData = [
+  {
+    title: "Harbor Heights",
+    price: "$350,000",
+    location: "Miami",
+    image: img_1
+  },
+  {
+    title: "Golden Gate Residences",
+    price: "$420,000",
+    location: "San Francisco",
+    image: img_2
+  },
+  {
+    title: "Lakeside Villas",
+    price: "$310,000",
+    location: "Seattle",
+    image: img_3
+  },
+  {
+    title: "Sunset Towers",
+    price: "$500,000",
+    location: "New York",
+    image: img_4
+  },
+  {
+    title: "Palm Grove Estates",
+    price: "$280,000",
+    location: "Orlando",
+    image: img_5
+  },
+  {
+    title: "Riverstone Residences",
+    price: "$390,000",
+    location: "Denver",
+    image: img_6
+  },
+];
 
 export const testimonialsData = [
-{
-    name: "Donald Jackman",
-    title: "Marketing Manager",
+  {
+    name: "Sophia Martinez",
+    title: "Real Estate Investor",
     image: profile_img_1,
-    alt: "Portrait of Donald Jackman",
+    alt: "Portrait of Sophia Martinez",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-},
-{
-    name: "Richard Nelson",
-    title: "UI/UX Designer",
+    text: "They made the buying process effortless and transparent. I felt supported every step of the way, and the property I purchased exceeded my expectations."
+  },
+  {
+    name: "Michael Chen",
+    title: "Software Engineer",
     image: profile_img_2,
-    alt: "Portrait of Richard Nelson",
+    alt: "Portrait of Michael Chen",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-},
-{
-    name: "James Washington",
-    title: "Co-Founder",
+    text: "Professional and attentive team! They helped me find a home in a competitive market and negotiated an excellent deal."
+  },
+  {
+    name: "Emily Johnson",
+    title: "Entrepreneur",
     image: profile_img_3,
-    alt: "Portrait of James Washington",
+    alt: "Portrait of Emily Johnson",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
-}
+    text: "From start to finish, the experience was seamless. Their market knowledge and client-focused approach made the entire journey stress-free."
+  }
 ];
