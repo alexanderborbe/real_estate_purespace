@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <div
-      className="container mx-auto py-4 px-6 md:px-20 lg:px-32 my-20 w-full"
+      className="container mx-auto py-16 px-6 md:px-20 lg:px-32 my-20 w-full"
       id="Projects"
     >
       {/* Heading */}
@@ -24,18 +24,18 @@ const Projects = () => {
         Crafting Spaces, Building Legacies — Explore Our Portfolio
       </p>
 
-      {/* Scrollable projects */}
-      <div className="overflow-x-auto scrollbar-hide">
+      {/* Scrollable projects with snap */}
+      <div className="overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4">
         <div className="flex gap-6">
           {projectImages.map((image, index) => (
             <div
               key={index}
-              className="min-w-[280px] sm:min-w-[350px] lg:min-w-[400px] relative"
+              className="flex-shrink-0 snap-center min-w-[280px] sm:min-w-[350px] lg:min-w-[400px] relative"
             >
               <img
                 src={image}
                 alt={`Project ${index + 1}`}
-                className="w-full h-120 object-cover rounded-lg shadow-lg"
+                className="w-80 h-100 object-cover rounded-lg shadow-lg"
               />
               <div className="absolute bottom-3 left-3 bg-white px-4 py-2 shadow-md rounded">
                 <h2 className="text-lg font-semibold text-gray-800">
